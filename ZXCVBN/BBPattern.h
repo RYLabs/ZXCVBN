@@ -50,8 +50,8 @@ static const double ENTROPY_UNKONWN = -DBL_MAX;
 @interface BBPattern : NSObject
 
 @property (nonatomic) BBPatternType type;
-@property (nonatomic) int begin;
-@property (nonatomic) int end;
+@property (nonatomic) NSUInteger begin;
+@property (nonatomic) NSUInteger end;
 @property (strong, nonatomic) NSString *token;
 @property (nonatomic) double entropy;
 @property (strong, nonatomic) NSDictionary *userInfo;

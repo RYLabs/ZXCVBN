@@ -1,3 +1,3 @@
 target :Tests do
-  pod 'GHUnit'
+  pod "GRUnit"
 end

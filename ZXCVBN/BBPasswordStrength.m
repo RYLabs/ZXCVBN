@@ -31,7 +31,7 @@ static const double SECOND_PER_GUESS = SINGLE_GUESS / ATTACKER_COUNT;
 
 @implementation BBPasswordStrength
 
-+ (double)getNumberFromArray:(NSArray *)array atIndex:(int)index {
++ (double)getNumberFromArray:(NSArray *)array atIndex:(NSInteger)index {
     if (index < 0 || index >= array.count) {
         return 0;
     }
@@ -53,6 +53,7 @@ static const double SECOND_PER_GUESS = SINGLE_GUESS / ATTACKER_COUNT;
 }
 
 - (id)initWithPassword:(NSString *)password {
+  NSParameterAssert(password);
     self = [super init];
     if (self) {
         self.password = password;
@@ -92,7 +93,7 @@ static const double SECOND_PER_GUESS = SINGLE_GUESS / ATTACKER_COUNT;
     }
     
     NSMutableArray *matchSequence = [NSMutableArray array];
-    int k = self.password.length - 1;
+    NSInteger k = self.password.length - 1;
     while (k >= 0) {
         BBPattern *match = [backPointers objectAtIndex:k];
         if (match == (BBPattern *)[NSNull null]) {
@@ -129,7 +130,7 @@ static const double SECOND_PER_GUESS = SINGLE_GUESS / ATTACKER_COUNT;
     return [BBEntropyCenter bruteforceCardinalityOfString:self.password];
 }
 
-- (BBPattern *)bruteforceMatchFrom:(int)begin to:(int)end {
+- (BBPattern *)bruteforceMatchFrom:(NSUInteger)begin to:(NSUInteger)end {
     BBPattern *match = [[BBPattern alloc] init];
     match.type = BBPatternTypeBruteforce;
     match.begin = begin;

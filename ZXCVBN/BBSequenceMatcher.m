@@ -33,20 +33,20 @@ static NSDictionary *g_sequences;
         int j = i + 1;
         NSString *sequence;
         NSString *sequenceName;
-        int sequenceDirection;
+        NSInteger sequenceDirection;
         
         NSDictionary *sequences = [BBSequenceMatcher sequences];
         for (NSString *candidateName in sequences) {
             NSString *candidateSequence = [sequences objectForKey:candidateName];
-            int iPosition = [candidateSequence rangeOfString:[password substringWithRange:NSMakeRange(i, 1)]].location;
-            int jPosition = NSNotFound;
+            NSInteger iPosition = [candidateSequence rangeOfString:[password substringWithRange:NSMakeRange(i, 1)]].location;
+            NSInteger jPosition = NSNotFound;
             if (j < password.length) {
                 jPosition = [candidateSequence rangeOfString:[password substringWithRange:NSMakeRange(j, 1)]].location;
             }
             
             if (iPosition != NSNotFound && jPosition != NSNotFound) {
-                int direction = jPosition - iPosition;
-                if (abs(direction) == 1) {
+                NSInteger direction = jPosition - iPosition;
+                if (abs((int)direction) == 1) {
                     sequence = candidateSequence;
                     sequenceName = candidateName;
                     sequenceDirection = direction;
@@ -57,7 +57,7 @@ static NSDictionary *g_sequences;
         
         if (sequence) {
             while (1) {
-                int previousPosition = NSNotFound, currentPosition = NSNotFound;
+                NSInteger previousPosition = NSNotFound, currentPosition = NSNotFound;
                 if (j < password.length) {
                     NSString *previousChar = [password substringWithRange:NSMakeRange(j - 1, 1)];
                     NSString *currentChar = [password substringWithRange:NSMakeRange(j, 1)];
@@ -73,7 +73,7 @@ static NSDictionary *g_sequences;
                         match.token = [password substringWithRange:NSMakeRange(i, j - i)];
                         match.userInfo = [NSDictionary dictionaryWithObjectsAndKeys:
                                           sequenceName, BBSequencePatternUserInfoKeySequenceName,
-                                          [NSNumber numberWithInt:sequence.length], BBSequencePatternUserInfoKeySequenceSpace,
+                                          [NSNumber numberWithInteger:sequence.length], BBSequencePatternUserInfoKeySequenceSpace,
                                           [NSNumber numberWithBool:sequenceDirection == 1], BBSequencePatternUserInfoKeyAscending,
                                           nil];
                         [result addObject:match];

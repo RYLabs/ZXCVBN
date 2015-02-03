@@ -17,8 +17,8 @@ static BBEntropyCenter *g_defaultCenter;
 @property (nonatomic) double keyboardAverageDegree;
 @property (nonatomic) double keypadAverageDegree;
 
-@property (nonatomic) int keyboardStartingPositions;
-@property (nonatomic) int keypadStartingPositions;
+@property (nonatomic) NSUInteger keyboardStartingPositions;
+@property (nonatomic) NSUInteger keypadStartingPositions;
 
 @end
 
@@ -64,7 +64,7 @@ static BBEntropyCenter *g_defaultCenter;
     return average;
 }
 
-+ (long long)binomialCoefficientOf:(int)k outOf:(int)n {
++ (long long)binomialCoefficientOf:(NSInteger)k outOf:(NSInteger)n {
     if (k > n) {
         return 0;
     }
@@ -173,7 +173,7 @@ static int DAY_COUNT = 31;
 
 - (double)spatialEntropyOf:(BBPattern *)match {
     double averageDegree;
-    int startingPositions;
+    NSUInteger startingPositions;
     NSString *graphType = [match.userInfo objectForKey:BBSpatialPatternUserInfoKeyGraph];
     if ([graphType isEqualToString:@"qwerty"] || [graphType isEqualToString:@"dvorak"]) {
         averageDegree = self.keyboardAverageDegree;
@@ -184,11 +184,11 @@ static int DAY_COUNT = 31;
     }
     
     long long possibilities = 0;
-    int length = match.token.length;
-    int turns = ((NSNumber *)[match.userInfo objectForKey:BBSpatialPatternUserInfoKeyTurns]).intValue;
+    NSUInteger length = match.token.length;
+    NSInteger turns = ((NSNumber *)[match.userInfo objectForKey:BBSpatialPatternUserInfoKeyTurns]).integerValue;
     
     for (int i = 2; i < length + 1; i++) {
-        int possiblyTurns = MIN(turns, i - 1);
+        NSInteger possiblyTurns = MIN(turns, i - 1);
         for (int j = 1; j < possiblyTurns + 1; j++) {
             long long x = [BBEntropyCenter binomialCoefficientOf:j - 1 outOf:i - 1] * startingPositions * pow(averageDegree, j);
             possibilities += x;
@@ -197,8 +197,8 @@ static int DAY_COUNT = 31;
     
     double entropy = log2(possibilities);
     
-    int shifted = ((NSNumber *)[match.userInfo objectForKey:BBSpatialPatternUserInfoKeyShiftedCount]).intValue;
-    int unshifted = length - shifted;
+    NSInteger shifted = ((NSNumber *)[match.userInfo objectForKey:BBSpatialPatternUserInfoKeyShiftedCount]).integerValue;
+    NSInteger unshifted = length - shifted;
     possibilities = 0;
     for (int i = 0; i < MIN(shifted, unshifted); i++) {
         possibilities += [BBEntropyCenter binomialCoefficientOf:i outOf:length];
