@@ -7,6 +7,8 @@
 //  Copyright (c) 2013 beanandbean. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 #import "BBPatternCenter.h"
 
 #import "BBEntropyCenter.h"
@@ -75,7 +77,7 @@ static BBPatternCenter *g_defaultCenter;
 
 - (void)loadDictionaryMatchers {
     NSMutableArray *matchers = [NSMutableArray array];
-    NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"frequency_lists" ofType:@"json"];
+    NSString *jsonPath = [[NSBundle bundleForClass:self.class] pathForResource:@"frequency_lists" ofType:@"json"];
     NSData *jsonData = [NSData dataWithContentsOfFile:jsonPath];
     NSDictionary *dicts = (NSDictionary *)[NSJSONSerialization JSONObjectWithData:jsonData options:0 error:nil];
     for (NSString *dictName in dicts) {
@@ -85,7 +87,7 @@ static BBPatternCenter *g_defaultCenter;
 }
 
 - (void)loadAdjacencyGraphs {
-    NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"adjacency_graphs" ofType:@"json"];
+    NSString *jsonPath = [[NSBundle bundleForClass:self.class] pathForResource:@"adjacency_graphs" ofType:@"json"];
     NSData *jsonData = [NSData dataWithContentsOfFile:jsonPath];
     self.adjacencyGraphs = (NSDictionary *)[NSJSONSerialization JSONObjectWithData:jsonData options:0 error:nil];
 }

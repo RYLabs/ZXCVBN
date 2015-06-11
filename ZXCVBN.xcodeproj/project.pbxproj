@@ -7,285 +7,226 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0031852819007BA80041CB48 /* BBPasswordStrength.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9EB4F1811384A0083828F /* BBPasswordStrength.m */; };
-		0031852919007BC10041CB48 /* BBEntropyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9AF35181673DD00D655D2 /* BBEntropyCenter.m */; };
-		0031852A19007BC30041CB48 /* BBPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9EB5F181142A40083828F /* BBPattern.m */; };
-		0031852B19007BC50041CB48 /* BBPatternCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9EB5218113E1B0083828F /* BBPatternCenter.m */; };
-		0031852C19007BC80041CB48 /* BBRegularExpressionMatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53346C1813E6A8008D3024 /* BBRegularExpressionMatchHelper.m */; };
-		0031852D19007BCB0041CB48 /* BBDictionaryMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9EB5C181141BF0083828F /* BBDictionaryMatcher.m */; };
-		0031852E19007BCD0041CB48 /* BBL33tMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD44AEF18128CBB00734182 /* BBL33tMatcher.m */; };
-		0031852F19007BCF0041CB48 /* BBSpatialMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5334621813D7E2008D3024 /* BBSpatialMatcher.m */; };
-		0031853019007BD10041CB48 /* BBRepeatMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5334651813DE13008D3024 /* BBRepeatMatcher.m */; };
-		0031853119007BD30041CB48 /* BBSequenceMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5334681813E20B008D3024 /* BBSequenceMatcher.m */; };
-		0031853219007BD60041CB48 /* BBDigitsMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53346F1813E992008D3024 /* BBDigitsMatcher.m */; };
-		0031853319007BD70041CB48 /* BBYearMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5334721813EA2C008D3024 /* BBYearMatcher.m */; };
-		0031853419007BDA0041CB48 /* BBDateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9526741815530C00D843CE /* BBDateMatcher.m */; };
-		00B543CE1A8177D80044CC5B /* ZXCVBN.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00B543CD1A8177D80044CC5B /* ZXCVBN.h */; };
-		00B543D01A8177D80044CC5B /* ZXCVBN.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B543CF1A8177D80044CC5B /* ZXCVBN.m */; };
-		00B543E21A8177E40044CC5B /* BBEntropyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9AF35181673DD00D655D2 /* BBEntropyCenter.m */; };
-		00B543E31A8177E60044CC5B /* BBPasswordStrength.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9EB4F1811384A0083828F /* BBPasswordStrength.m */; };
-		00B543E41A8177E80044CC5B /* BBPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9EB5F181142A40083828F /* BBPattern.m */; };
-		00B543E51A8177EB0044CC5B /* BBPatternCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9EB5218113E1B0083828F /* BBPatternCenter.m */; };
-		00B543E61A8177EE0044CC5B /* BBRegularExpressionMatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53346C1813E6A8008D3024 /* BBRegularExpressionMatchHelper.m */; };
-		00B543E71A8177F20044CC5B /* BBDictionaryMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9EB5C181141BF0083828F /* BBDictionaryMatcher.m */; };
-		00B543E81A8177F40044CC5B /* BBL33tMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD44AEF18128CBB00734182 /* BBL33tMatcher.m */; };
-		00B543E91A8177F60044CC5B /* BBSpatialMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5334621813D7E2008D3024 /* BBSpatialMatcher.m */; };
-		00B543EA1A8177F70044CC5B /* BBRepeatMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5334651813DE13008D3024 /* BBRepeatMatcher.m */; };
-		00B543EB1A8177FA0044CC5B /* BBSequenceMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5334681813E20B008D3024 /* BBSequenceMatcher.m */; };
-		00B543EC1A8177FC0044CC5B /* BBDigitsMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53346F1813E992008D3024 /* BBDigitsMatcher.m */; };
-		00B543ED1A8177FE0044CC5B /* BBYearMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5334721813EA2C008D3024 /* BBYearMatcher.m */; };
-		00B543EE1A8178010044CC5B /* BBDateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9526741815530C00D843CE /* BBDateMatcher.m */; };
-		0343729B802C486F828E60F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF2CD0BD9BD4C61B9F98A4B /* main.m */; };
-		1A5ED37263C441A4BC99EBB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FE082556524AAE84318EF3 /* Foundation.framework */; };
-		2482B292AA2C47229E9AF65F /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F34FD2F8B64664B7915180 /* libPods-Tests.a */; };
-		2C724FACD485445695ACA27E /* BBPasswordStrengthTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA5CFE6CBC4F8A8D2DC30B /* BBPasswordStrengthTest.m */; };
-		2CC9EB211811317C0083828F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CC9EB1F1811317C0083828F /* InfoPlist.strings */; };
-		2CC9EB5618113EA90083828F /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CC9EB5418113EA90083828F /* adjacency_graphs.json */; };
-		2CC9EB5718113EA90083828F /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CC9EB5518113EA90083828F /* frequency_lists.json */; };
+		004624DF1B2A54D700E218AC /* ZXCVBN.h in Headers */ = {isa = PBXBuildFile; fileRef = 004624DE1B2A54D700E218AC /* ZXCVBN.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		004624E51B2A54D700E218AC /* ZXCVBN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004624D91B2A54D700E218AC /* ZXCVBN.framework */; };
+		004625101B2A555F00E218AC /* BBDateMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 004624F51B2A555F00E218AC /* BBDateMatcher.h */; };
+		004625111B2A555F00E218AC /* BBDateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 004624F61B2A555F00E218AC /* BBDateMatcher.m */; };
+		004625121B2A555F00E218AC /* BBDictionaryMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 004624F71B2A555F00E218AC /* BBDictionaryMatcher.h */; };
+		004625131B2A555F00E218AC /* BBDictionaryMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 004624F81B2A555F00E218AC /* BBDictionaryMatcher.m */; };
+		004625141B2A555F00E218AC /* BBDigitsMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 004624F91B2A555F00E218AC /* BBDigitsMatcher.h */; };
+		004625151B2A555F00E218AC /* BBDigitsMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 004624FA1B2A555F00E218AC /* BBDigitsMatcher.m */; };
+		004625161B2A555F00E218AC /* BBEntropyCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 004624FB1B2A555F00E218AC /* BBEntropyCenter.h */; };
+		004625171B2A555F00E218AC /* BBEntropyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 004624FC1B2A555F00E218AC /* BBEntropyCenter.m */; };
+		004625181B2A555F00E218AC /* BBL33tMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 004624FD1B2A555F00E218AC /* BBL33tMatcher.h */; };
+		004625191B2A555F00E218AC /* BBL33tMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 004624FE1B2A555F00E218AC /* BBL33tMatcher.m */; };
+		0046251A1B2A555F00E218AC /* BBPasswordStrength.h in Headers */ = {isa = PBXBuildFile; fileRef = 004624FF1B2A555F00E218AC /* BBPasswordStrength.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0046251B1B2A555F00E218AC /* BBPasswordStrength.m in Sources */ = {isa = PBXBuildFile; fileRef = 004625001B2A555F00E218AC /* BBPasswordStrength.m */; };
+		0046251C1B2A556000E218AC /* BBPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 004625011B2A555F00E218AC /* BBPattern.h */; };
+		0046251D1B2A556000E218AC /* BBPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 004625021B2A555F00E218AC /* BBPattern.m */; };
+		0046251E1B2A556000E218AC /* BBPatternCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 004625031B2A555F00E218AC /* BBPatternCenter.h */; };
+		0046251F1B2A556000E218AC /* BBPatternCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 004625041B2A555F00E218AC /* BBPatternCenter.m */; };
+		004625201B2A556000E218AC /* BBPatternMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 004625051B2A555F00E218AC /* BBPatternMatcher.h */; };
+		004625211B2A556000E218AC /* BBRegularExpressionMatchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 004625061B2A555F00E218AC /* BBRegularExpressionMatchHelper.h */; };
+		004625221B2A556000E218AC /* BBRegularExpressionMatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 004625071B2A555F00E218AC /* BBRegularExpressionMatchHelper.m */; };
+		004625231B2A556000E218AC /* BBRepeatMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 004625081B2A555F00E218AC /* BBRepeatMatcher.h */; };
+		004625241B2A556000E218AC /* BBRepeatMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 004625091B2A555F00E218AC /* BBRepeatMatcher.m */; };
+		004625251B2A556000E218AC /* BBSequenceMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0046250A1B2A555F00E218AC /* BBSequenceMatcher.h */; };
+		004625261B2A556000E218AC /* BBSequenceMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0046250B1B2A555F00E218AC /* BBSequenceMatcher.m */; };
+		004625271B2A556000E218AC /* BBSpatialMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0046250C1B2A555F00E218AC /* BBSpatialMatcher.h */; };
+		004625281B2A556000E218AC /* BBSpatialMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0046250D1B2A555F00E218AC /* BBSpatialMatcher.m */; };
+		004625291B2A556000E218AC /* BBYearMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0046250E1B2A555F00E218AC /* BBYearMatcher.h */; };
+		0046252A1B2A556000E218AC /* BBYearMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0046250F1B2A555F00E218AC /* BBYearMatcher.m */; };
+		0046252C1B2A558100E218AC /* BBPasswordStrengthTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0046252B1B2A558100E218AC /* BBPasswordStrengthTest.m */; };
+		0046252F1B2A565800E218AC /* adjacency_graphs.json in Resources */ = {isa = PBXBuildFile; fileRef = 0046252D1B2A565800E218AC /* adjacency_graphs.json */; };
+		004625301B2A565800E218AC /* frequency_lists.json in Resources */ = {isa = PBXBuildFile; fileRef = 0046252E1B2A565800E218AC /* frequency_lists.json */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		00B543C91A8177D80044CC5B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				00B543CE1A8177D80044CC5B /* ZXCVBN.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXContainerItemProxy section */
+		004624E61B2A54D700E218AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004624D01B2A54D600E218AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004624D81B2A54D700E218AC;
+			remoteInfo = ZXCVBN;
 		};
-/* End PBXCopyFilesBuildPhase section */
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B543CB1A8177D80044CC5B /* libZXCVBN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZXCVBN.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		00B543CD1A8177D80044CC5B /* ZXCVBN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXCVBN.h; sourceTree = "<group>"; };
-		00B543CF1A8177D80044CC5B /* ZXCVBN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXCVBN.m; sourceTree = "<group>"; };
-		00B543DB1A8177D80044CC5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C5334611813D7E2008D3024 /* BBSpatialMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSpatialMatcher.h; sourceTree = "<group>"; };
-		2C5334621813D7E2008D3024 /* BBSpatialMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSpatialMatcher.m; sourceTree = "<group>"; };
-		2C5334641813DE13008D3024 /* BBRepeatMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBRepeatMatcher.h; sourceTree = "<group>"; };
-		2C5334651813DE13008D3024 /* BBRepeatMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBRepeatMatcher.m; sourceTree = "<group>"; };
-		2C5334671813E20B008D3024 /* BBSequenceMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSequenceMatcher.h; sourceTree = "<group>"; };
-		2C5334681813E20B008D3024 /* BBSequenceMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSequenceMatcher.m; sourceTree = "<group>"; };
-		2C53346B1813E6A8008D3024 /* BBRegularExpressionMatchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBRegularExpressionMatchHelper.h; sourceTree = "<group>"; };
-		2C53346C1813E6A8008D3024 /* BBRegularExpressionMatchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBRegularExpressionMatchHelper.m; sourceTree = "<group>"; };
-		2C53346E1813E992008D3024 /* BBDigitsMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDigitsMatcher.h; sourceTree = "<group>"; };
-		2C53346F1813E992008D3024 /* BBDigitsMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDigitsMatcher.m; sourceTree = "<group>"; };
-		2C5334711813EA2C008D3024 /* BBYearMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBYearMatcher.h; sourceTree = "<group>"; };
-		2C5334721813EA2C008D3024 /* BBYearMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBYearMatcher.m; sourceTree = "<group>"; };
-		2C9526731815530C00D843CE /* BBDateMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDateMatcher.h; sourceTree = "<group>"; };
-		2C9526741815530C00D843CE /* BBDateMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDateMatcher.m; sourceTree = "<group>"; };
-		2CC9EB161811317C0083828F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2CC9EB181811317C0083828F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2CC9EB1A1811317C0083828F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2CC9EB1E1811317C0083828F /* ZXCVBN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZXCVBN-Info.plist"; sourceTree = "<group>"; };
-		2CC9EB201811317C0083828F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2CC9EB241811317C0083828F /* ZXCVBN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZXCVBN-Prefix.pch"; sourceTree = "<group>"; };
-		2CC9EB381811317C0083828F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2CC9EB4E1811384A0083828F /* BBPasswordStrength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPasswordStrength.h; sourceTree = "<group>"; };
-		2CC9EB4F1811384A0083828F /* BBPasswordStrength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPasswordStrength.m; sourceTree = "<group>"; };
-		2CC9EB5118113E1B0083828F /* BBPatternCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPatternCenter.h; sourceTree = "<group>"; };
-		2CC9EB5218113E1B0083828F /* BBPatternCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPatternCenter.m; sourceTree = "<group>"; };
-		2CC9EB5418113EA90083828F /* adjacency_graphs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = adjacency_graphs.json; sourceTree = "<group>"; };
-		2CC9EB5518113EA90083828F /* frequency_lists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = frequency_lists.json; sourceTree = "<group>"; };
-		2CC9EB58181141640083828F /* BBPatternMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPatternMatcher.h; sourceTree = "<group>"; };
-		2CC9EB5B181141BF0083828F /* BBDictionaryMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDictionaryMatcher.h; sourceTree = "<group>"; };
-		2CC9EB5C181141BF0083828F /* BBDictionaryMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDictionaryMatcher.m; sourceTree = "<group>"; };
-		2CC9EB5E181142A40083828F /* BBPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPattern.h; sourceTree = "<group>"; };
-		2CC9EB5F181142A40083828F /* BBPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPattern.m; sourceTree = "<group>"; };
-		2CD44AEE18128CBB00734182 /* BBL33tMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBL33tMatcher.h; sourceTree = "<group>"; };
-		2CD44AEF18128CBB00734182 /* BBL33tMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBL33tMatcher.m; sourceTree = "<group>"; };
-		2CE9AF34181673DD00D655D2 /* BBEntropyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBEntropyCenter.h; sourceTree = "<group>"; };
-		2CE9AF35181673DD00D655D2 /* BBEntropyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBEntropyCenter.m; sourceTree = "<group>"; };
-		38FE082556524AAE84318EF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69ABAB3CC617104E3497CB32 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9FCA5CFE6CBC4F8A8D2DC30B /* BBPasswordStrengthTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBPasswordStrengthTest.m; path = Tests/BBPasswordStrengthTest.m; sourceTree = "<group>"; };
-		A0F34FD2F8B64664B7915180 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAF2CD0BD9BD4C61B9F98A4B /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Tests/main.m; sourceTree = "<group>"; };
-		EF9B91B397E04BF693D8AFF2 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFD7095EABCAA605ECC35CC7 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		004624D91B2A54D700E218AC /* ZXCVBN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZXCVBN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		004624DD1B2A54D700E218AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004624DE1B2A54D700E218AC /* ZXCVBN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXCVBN.h; sourceTree = "<group>"; };
+		004624E41B2A54D700E218AC /* ZXCVBNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXCVBNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		004624EA1B2A54D700E218AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004624F51B2A555F00E218AC /* BBDateMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDateMatcher.h; sourceTree = "<group>"; };
+		004624F61B2A555F00E218AC /* BBDateMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDateMatcher.m; sourceTree = "<group>"; };
+		004624F71B2A555F00E218AC /* BBDictionaryMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDictionaryMatcher.h; sourceTree = "<group>"; };
+		004624F81B2A555F00E218AC /* BBDictionaryMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDictionaryMatcher.m; sourceTree = "<group>"; };
+		004624F91B2A555F00E218AC /* BBDigitsMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDigitsMatcher.h; sourceTree = "<group>"; };
+		004624FA1B2A555F00E218AC /* BBDigitsMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDigitsMatcher.m; sourceTree = "<group>"; };
+		004624FB1B2A555F00E218AC /* BBEntropyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBEntropyCenter.h; sourceTree = "<group>"; };
+		004624FC1B2A555F00E218AC /* BBEntropyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBEntropyCenter.m; sourceTree = "<group>"; };
+		004624FD1B2A555F00E218AC /* BBL33tMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBL33tMatcher.h; sourceTree = "<group>"; };
+		004624FE1B2A555F00E218AC /* BBL33tMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBL33tMatcher.m; sourceTree = "<group>"; };
+		004624FF1B2A555F00E218AC /* BBPasswordStrength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPasswordStrength.h; sourceTree = "<group>"; };
+		004625001B2A555F00E218AC /* BBPasswordStrength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPasswordStrength.m; sourceTree = "<group>"; };
+		004625011B2A555F00E218AC /* BBPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPattern.h; sourceTree = "<group>"; };
+		004625021B2A555F00E218AC /* BBPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPattern.m; sourceTree = "<group>"; };
+		004625031B2A555F00E218AC /* BBPatternCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPatternCenter.h; sourceTree = "<group>"; };
+		004625041B2A555F00E218AC /* BBPatternCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPatternCenter.m; sourceTree = "<group>"; };
+		004625051B2A555F00E218AC /* BBPatternMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBPatternMatcher.h; sourceTree = "<group>"; };
+		004625061B2A555F00E218AC /* BBRegularExpressionMatchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBRegularExpressionMatchHelper.h; sourceTree = "<group>"; };
+		004625071B2A555F00E218AC /* BBRegularExpressionMatchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBRegularExpressionMatchHelper.m; sourceTree = "<group>"; };
+		004625081B2A555F00E218AC /* BBRepeatMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBRepeatMatcher.h; sourceTree = "<group>"; };
+		004625091B2A555F00E218AC /* BBRepeatMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBRepeatMatcher.m; sourceTree = "<group>"; };
+		0046250A1B2A555F00E218AC /* BBSequenceMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSequenceMatcher.h; sourceTree = "<group>"; };
+		0046250B1B2A555F00E218AC /* BBSequenceMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSequenceMatcher.m; sourceTree = "<group>"; };
+		0046250C1B2A555F00E218AC /* BBSpatialMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSpatialMatcher.h; sourceTree = "<group>"; };
+		0046250D1B2A555F00E218AC /* BBSpatialMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSpatialMatcher.m; sourceTree = "<group>"; };
+		0046250E1B2A555F00E218AC /* BBYearMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBYearMatcher.h; sourceTree = "<group>"; };
+		0046250F1B2A555F00E218AC /* BBYearMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBYearMatcher.m; sourceTree = "<group>"; };
+		0046252B1B2A558100E218AC /* BBPasswordStrengthTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBPasswordStrengthTest.m; sourceTree = "<group>"; };
+		0046252D1B2A565800E218AC /* adjacency_graphs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = adjacency_graphs.json; path = tools/generated/adjacency_graphs.json; sourceTree = SOURCE_ROOT; };
+		0046252E1B2A565800E218AC /* frequency_lists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = frequency_lists.json; path = tools/generated/frequency_lists.json; sourceTree = SOURCE_ROOT; };
+		004625311B2A575800E218AC /* ZXCVBN.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ZXCVBN.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00B543C81A8177D80044CC5B /* Frameworks */ = {
+		004624D51B2A54D700E218AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB3838BAC2254FFD953B1F55 /* Frameworks */ = {
+		004624E11B2A54D700E218AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5ED37263C441A4BC99EBB3 /* Foundation.framework in Frameworks */,
-				2482B292AA2C47229E9AF65F /* libPods-Tests.a in Frameworks */,
+				004624E51B2A54D700E218AC /* ZXCVBN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00B543CC1A8177D80044CC5B /* ZXCVBN */ = {
+		004624CF1B2A54D600E218AC = {
 			isa = PBXGroup;
 			children = (
-				00B543CD1A8177D80044CC5B /* ZXCVBN.h */,
-				00B543CF1A8177D80044CC5B /* ZXCVBN.m */,
-			);
-			path = ZXCVBN;
-			sourceTree = "<group>";
-		};
-		00B543D91A8177D80044CC5B /* ZXCVBNTests */ = {
-			isa = PBXGroup;
-			children = (
-				00B543DA1A8177D80044CC5B /* Supporting Files */,
-			);
-			path = ZXCVBNTests;
-			sourceTree = "<group>";
-		};
-		00B543DA1A8177D80044CC5B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00B543DB1A8177D80044CC5B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0BE6087B3DBF400FA7C9C172 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				69ABAB3CC617104E3497CB32 /* Pods-Tests.release.xcconfig */,
-				EFD7095EABCAA605ECC35CC7 /* Pods-Tests.debug.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2C61292A181A6B7C00F3134F /* ZXCVBN */ = {
-			isa = PBXGroup;
-			children = (
-				2CE9AF34181673DD00D655D2 /* BBEntropyCenter.h */,
-				2CE9AF35181673DD00D655D2 /* BBEntropyCenter.m */,
-				2CC9EB4E1811384A0083828F /* BBPasswordStrength.h */,
-				2CC9EB4F1811384A0083828F /* BBPasswordStrength.m */,
-				2CC9EB5E181142A40083828F /* BBPattern.h */,
-				2CC9EB5F181142A40083828F /* BBPattern.m */,
-				2CC9EB5118113E1B0083828F /* BBPatternCenter.h */,
-				2CC9EB5218113E1B0083828F /* BBPatternCenter.m */,
-				2CC9EB58181141640083828F /* BBPatternMatcher.h */,
-				2C53346B1813E6A8008D3024 /* BBRegularExpressionMatchHelper.h */,
-				2C53346C1813E6A8008D3024 /* BBRegularExpressionMatchHelper.m */,
-				2CD44AED18128C9A00734182 /* Pattern Matcher */,
-			);
-			name = ZXCVBN;
-			sourceTree = "<group>";
-		};
-		2CC9EB0A1811317C0083828F = {
-			isa = PBXGroup;
-			children = (
-				2CC9EB1C1811317C0083828F /* ZXCVBN */,
-				00B543CC1A8177D80044CC5B /* ZXCVBN */,
-				00B543D91A8177D80044CC5B /* ZXCVBNTests */,
-				2CC9EB151811317C0083828F /* Frameworks */,
-				2CC9EB141811317C0083828F /* Products */,
-				DD8521C2C0C54DE395018742 /* Tests */,
-				0BE6087B3DBF400FA7C9C172 /* Pods */,
+				004625311B2A575800E218AC /* ZXCVBN.podspec */,
+				004624DB1B2A54D700E218AC /* ZXCVBN */,
+				004624E81B2A54D700E218AC /* ZXCVBNTests */,
+				004624DA1B2A54D700E218AC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2CC9EB141811317C0083828F /* Products */ = {
+		004624DA1B2A54D700E218AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF9B91B397E04BF693D8AFF2 /* Tests.app */,
-				00B543CB1A8177D80044CC5B /* libZXCVBN.a */,
+				004624D91B2A54D700E218AC /* ZXCVBN.framework */,
+				004624E41B2A54D700E218AC /* ZXCVBNTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CC9EB151811317C0083828F /* Frameworks */ = {
+		004624DB1B2A54D700E218AC /* ZXCVBN */ = {
 			isa = PBXGroup;
 			children = (
-				2CC9EB161811317C0083828F /* Foundation.framework */,
-				2CC9EB181811317C0083828F /* CoreGraphics.framework */,
-				2CC9EB1A1811317C0083828F /* UIKit.framework */,
-				2CC9EB381811317C0083828F /* XCTest.framework */,
-				660D6535CC5243FF80CBFDED /* iOS */,
-				A0F34FD2F8B64664B7915180 /* libPods-Tests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2CC9EB1C1811317C0083828F /* ZXCVBN */ = {
-			isa = PBXGroup;
-			children = (
-				2C61292A181A6B7C00F3134F /* ZXCVBN */,
-				2CC9EB1D1811317C0083828F /* Supporting Files */,
+				004624DE1B2A54D700E218AC /* ZXCVBN.h */,
+				004624F51B2A555F00E218AC /* BBDateMatcher.h */,
+				004624F61B2A555F00E218AC /* BBDateMatcher.m */,
+				004624F71B2A555F00E218AC /* BBDictionaryMatcher.h */,
+				004624F81B2A555F00E218AC /* BBDictionaryMatcher.m */,
+				004624F91B2A555F00E218AC /* BBDigitsMatcher.h */,
+				004624FA1B2A555F00E218AC /* BBDigitsMatcher.m */,
+				004624FB1B2A555F00E218AC /* BBEntropyCenter.h */,
+				004624FC1B2A555F00E218AC /* BBEntropyCenter.m */,
+				004624FD1B2A555F00E218AC /* BBL33tMatcher.h */,
+				004624FE1B2A555F00E218AC /* BBL33tMatcher.m */,
+				004624FF1B2A555F00E218AC /* BBPasswordStrength.h */,
+				004625001B2A555F00E218AC /* BBPasswordStrength.m */,
+				004625011B2A555F00E218AC /* BBPattern.h */,
+				004625021B2A555F00E218AC /* BBPattern.m */,
+				004625031B2A555F00E218AC /* BBPatternCenter.h */,
+				004625041B2A555F00E218AC /* BBPatternCenter.m */,
+				004625051B2A555F00E218AC /* BBPatternMatcher.h */,
+				004625061B2A555F00E218AC /* BBRegularExpressionMatchHelper.h */,
+				004625071B2A555F00E218AC /* BBRegularExpressionMatchHelper.m */,
+				004625081B2A555F00E218AC /* BBRepeatMatcher.h */,
+				004625091B2A555F00E218AC /* BBRepeatMatcher.m */,
+				0046250A1B2A555F00E218AC /* BBSequenceMatcher.h */,
+				0046250B1B2A555F00E218AC /* BBSequenceMatcher.m */,
+				0046250C1B2A555F00E218AC /* BBSpatialMatcher.h */,
+				0046250D1B2A555F00E218AC /* BBSpatialMatcher.m */,
+				0046250E1B2A555F00E218AC /* BBYearMatcher.h */,
+				0046250F1B2A555F00E218AC /* BBYearMatcher.m */,
+				004624DC1B2A54D700E218AC /* Supporting Files */,
 			);
 			path = ZXCVBN;
 			sourceTree = "<group>";
 		};
-		2CC9EB1D1811317C0083828F /* Supporting Files */ = {
+		004624DC1B2A54D700E218AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2CC9EB5418113EA90083828F /* adjacency_graphs.json */,
-				2CC9EB5518113EA90083828F /* frequency_lists.json */,
-				2CC9EB1E1811317C0083828F /* ZXCVBN-Info.plist */,
-				2CC9EB1F1811317C0083828F /* InfoPlist.strings */,
-				2CC9EB241811317C0083828F /* ZXCVBN-Prefix.pch */,
+				0046252D1B2A565800E218AC /* adjacency_graphs.json */,
+				0046252E1B2A565800E218AC /* frequency_lists.json */,
+				004624DD1B2A54D700E218AC /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2CD44AED18128C9A00734182 /* Pattern Matcher */ = {
+		004624E81B2A54D700E218AC /* ZXCVBNTests */ = {
 			isa = PBXGroup;
 			children = (
-				2CC9EB5B181141BF0083828F /* BBDictionaryMatcher.h */,
-				2CC9EB5C181141BF0083828F /* BBDictionaryMatcher.m */,
-				2CD44AEE18128CBB00734182 /* BBL33tMatcher.h */,
-				2CD44AEF18128CBB00734182 /* BBL33tMatcher.m */,
-				2C5334611813D7E2008D3024 /* BBSpatialMatcher.h */,
-				2C5334621813D7E2008D3024 /* BBSpatialMatcher.m */,
-				2C5334641813DE13008D3024 /* BBRepeatMatcher.h */,
-				2C5334651813DE13008D3024 /* BBRepeatMatcher.m */,
-				2C5334671813E20B008D3024 /* BBSequenceMatcher.h */,
-				2C5334681813E20B008D3024 /* BBSequenceMatcher.m */,
-				2C53346E1813E992008D3024 /* BBDigitsMatcher.h */,
-				2C53346F1813E992008D3024 /* BBDigitsMatcher.m */,
-				2C5334711813EA2C008D3024 /* BBYearMatcher.h */,
-				2C5334721813EA2C008D3024 /* BBYearMatcher.m */,
-				2C9526731815530C00D843CE /* BBDateMatcher.h */,
-				2C9526741815530C00D843CE /* BBDateMatcher.m */,
+				0046252B1B2A558100E218AC /* BBPasswordStrengthTest.m */,
+				004624E91B2A54D700E218AC /* Supporting Files */,
 			);
-			name = "Pattern Matcher";
+			path = ZXCVBNTests;
 			sourceTree = "<group>";
 		};
-		660D6535CC5243FF80CBFDED /* iOS */ = {
+		004624E91B2A54D700E218AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				38FE082556524AAE84318EF3 /* Foundation.framework */,
+				004624EA1B2A54D700E218AC /* Info.plist */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DD8521C2C0C54DE395018742 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				BAF2CD0BD9BD4C61B9F98A4B /* main.m */,
-				9FCA5CFE6CBC4F8A8D2DC30B /* BBPasswordStrengthTest.m */,
-			);
-			name = Tests;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		004624D61B2A54D700E218AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004625271B2A556000E218AC /* BBSpatialMatcher.h in Headers */,
+				004625291B2A556000E218AC /* BBYearMatcher.h in Headers */,
+				004625201B2A556000E218AC /* BBPatternMatcher.h in Headers */,
+				004625121B2A555F00E218AC /* BBDictionaryMatcher.h in Headers */,
+				004625211B2A556000E218AC /* BBRegularExpressionMatchHelper.h in Headers */,
+				004625181B2A555F00E218AC /* BBL33tMatcher.h in Headers */,
+				004625251B2A556000E218AC /* BBSequenceMatcher.h in Headers */,
+				004624DF1B2A54D700E218AC /* ZXCVBN.h in Headers */,
+				0046251C1B2A556000E218AC /* BBPattern.h in Headers */,
+				0046251A1B2A555F00E218AC /* BBPasswordStrength.h in Headers */,
+				0046251E1B2A556000E218AC /* BBPatternCenter.h in Headers */,
+				004625231B2A556000E218AC /* BBRepeatMatcher.h in Headers */,
+				004625101B2A555F00E218AC /* BBDateMatcher.h in Headers */,
+				004625161B2A555F00E218AC /* BBEntropyCenter.h in Headers */,
+				004625141B2A555F00E218AC /* BBDigitsMatcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		00B543CA1A8177D80044CC5B /* ZXCVBN */ = {
+		004624D81B2A54D700E218AC /* ZXCVBN */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00B543DC1A8177D80044CC5B /* Build configuration list for PBXNativeTarget "ZXCVBN" */;
+			buildConfigurationList = 004624EF1B2A54D700E218AC /* Build configuration list for PBXNativeTarget "ZXCVBN" */;
 			buildPhases = (
-				00B543C71A8177D80044CC5B /* Sources */,
-				00B543C81A8177D80044CC5B /* Frameworks */,
-				00B543C91A8177D80044CC5B /* CopyFiles */,
+				004624D41B2A54D700E218AC /* Sources */,
+				004624D51B2A54D700E218AC /* Frameworks */,
+				004624D61B2A54D700E218AC /* Headers */,
+				004624D71B2A54D700E218AC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -293,283 +234,167 @@
 			);
 			name = ZXCVBN;
 			productName = ZXCVBN;
-			productReference = 00B543CB1A8177D80044CC5B /* libZXCVBN.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 004624D91B2A54D700E218AC /* ZXCVBN.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		DBFBBCA43BFA439ABBD511B4 /* Tests */ = {
+		004624E31B2A54D700E218AC /* ZXCVBNTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F726E7DB23E7438088E50CD0 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildConfigurationList = 004624F21B2A54D700E218AC /* Build configuration list for PBXNativeTarget "ZXCVBNTests" */;
 			buildPhases = (
-				3CF2523683804B6FABE11427 /* Check Pods Manifest.lock */,
-				BEF121F75F554A17BE873715 /* Sources */,
-				BB3838BAC2254FFD953B1F55 /* Frameworks */,
-				2CC9EB111811317C0083828F /* Resources */,
-				929835E3069E4FC8940E085A /* Copy Pods Resources */,
-				2D6BEFCE18A94480A260E33D /* Run Tests (CLI) */,
+				004624E01B2A54D700E218AC /* Sources */,
+				004624E11B2A54D700E218AC /* Frameworks */,
+				004624E21B2A54D700E218AC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				004624E71B2A54D700E218AC /* PBXTargetDependency */,
 			);
-			name = Tests;
-			productName = Tests;
-			productReference = EF9B91B397E04BF693D8AFF2 /* Tests.app */;
-			productType = "com.apple.product-type.application";
+			name = ZXCVBNTests;
+			productName = ZXCVBNTests;
+			productReference = 004624E41B2A54D700E218AC /* ZXCVBNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2CC9EB0B1811317C0083828F /* Project object */ = {
+		004624D01B2A54D600E218AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = BB;
-				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = beanandbean;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Gabriel Handford";
 				TargetAttributes = {
-					00B543CA1A8177D80044CC5B = {
-						CreatedOnToolsVersion = 6.1.1;
+					004624D81B2A54D700E218AC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					004624E31B2A54D700E218AC = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = 2CC9EB0E1811317C0083828F /* Build configuration list for PBXProject "ZXCVBN" */;
+			buildConfigurationList = 004624D31B2A54D600E218AC /* Build configuration list for PBXProject "ZXCVBN" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 2CC9EB0A1811317C0083828F;
-			productRefGroup = 2CC9EB141811317C0083828F /* Products */;
+			mainGroup = 004624CF1B2A54D600E218AC;
+			productRefGroup = 004624DA1B2A54D700E218AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DBFBBCA43BFA439ABBD511B4 /* Tests */,
-				00B543CA1A8177D80044CC5B /* ZXCVBN */,
+				004624D81B2A54D700E218AC /* ZXCVBN */,
+				004624E31B2A54D700E218AC /* ZXCVBNTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2CC9EB111811317C0083828F /* Resources */ = {
+		004624D71B2A54D700E218AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CC9EB5718113EA90083828F /* frequency_lists.json in Resources */,
-				2CC9EB5618113EA90083828F /* adjacency_graphs.json in Resources */,
-				2CC9EB211811317C0083828F /* InfoPlist.strings in Resources */,
+				004625301B2A565800E218AC /* frequency_lists.json in Resources */,
+				0046252F1B2A565800E218AC /* adjacency_graphs.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004624E21B2A54D700E218AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2D6BEFCE18A94480A260E33D /* Run Tests (CLI) */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Tests (CLI)";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "sh Tests/RunTests.sh";
-		};
-		3CF2523683804B6FABE11427 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		929835E3069E4FC8940E085A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		00B543C71A8177D80044CC5B /* Sources */ = {
+		004624D41B2A54D700E218AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B543EB1A8177FA0044CC5B /* BBSequenceMatcher.m in Sources */,
-				00B543E91A8177F60044CC5B /* BBSpatialMatcher.m in Sources */,
-				00B543E81A8177F40044CC5B /* BBL33tMatcher.m in Sources */,
-				00B543E41A8177E80044CC5B /* BBPattern.m in Sources */,
-				00B543EC1A8177FC0044CC5B /* BBDigitsMatcher.m in Sources */,
-				00B543E21A8177E40044CC5B /* BBEntropyCenter.m in Sources */,
-				00B543ED1A8177FE0044CC5B /* BBYearMatcher.m in Sources */,
-				00B543E31A8177E60044CC5B /* BBPasswordStrength.m in Sources */,
-				00B543EE1A8178010044CC5B /* BBDateMatcher.m in Sources */,
-				00B543E71A8177F20044CC5B /* BBDictionaryMatcher.m in Sources */,
-				00B543D01A8177D80044CC5B /* ZXCVBN.m in Sources */,
-				00B543EA1A8177F70044CC5B /* BBRepeatMatcher.m in Sources */,
-				00B543E61A8177EE0044CC5B /* BBRegularExpressionMatchHelper.m in Sources */,
-				00B543E51A8177EB0044CC5B /* BBPatternCenter.m in Sources */,
+				004625261B2A556000E218AC /* BBSequenceMatcher.m in Sources */,
+				0046251D1B2A556000E218AC /* BBPattern.m in Sources */,
+				004625131B2A555F00E218AC /* BBDictionaryMatcher.m in Sources */,
+				004625281B2A556000E218AC /* BBSpatialMatcher.m in Sources */,
+				0046251B1B2A555F00E218AC /* BBPasswordStrength.m in Sources */,
+				004625151B2A555F00E218AC /* BBDigitsMatcher.m in Sources */,
+				0046252A1B2A556000E218AC /* BBYearMatcher.m in Sources */,
+				004625221B2A556000E218AC /* BBRegularExpressionMatchHelper.m in Sources */,
+				004625171B2A555F00E218AC /* BBEntropyCenter.m in Sources */,
+				004625111B2A555F00E218AC /* BBDateMatcher.m in Sources */,
+				004625241B2A556000E218AC /* BBRepeatMatcher.m in Sources */,
+				004625191B2A555F00E218AC /* BBL33tMatcher.m in Sources */,
+				0046251F1B2A556000E218AC /* BBPatternCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEF121F75F554A17BE873715 /* Sources */ = {
+		004624E01B2A54D700E218AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0343729B802C486F828E60F6 /* main.m in Sources */,
-				0031853219007BD60041CB48 /* BBDigitsMatcher.m in Sources */,
-				0031853419007BDA0041CB48 /* BBDateMatcher.m in Sources */,
-				0031852C19007BC80041CB48 /* BBRegularExpressionMatchHelper.m in Sources */,
-				0031853019007BD10041CB48 /* BBRepeatMatcher.m in Sources */,
-				0031852819007BA80041CB48 /* BBPasswordStrength.m in Sources */,
-				0031853319007BD70041CB48 /* BBYearMatcher.m in Sources */,
-				0031852F19007BCF0041CB48 /* BBSpatialMatcher.m in Sources */,
-				0031852919007BC10041CB48 /* BBEntropyCenter.m in Sources */,
-				0031852E19007BCD0041CB48 /* BBL33tMatcher.m in Sources */,
-				0031852A19007BC30041CB48 /* BBPattern.m in Sources */,
-				2C724FACD485445695ACA27E /* BBPasswordStrengthTest.m in Sources */,
-				0031852D19007BCB0041CB48 /* BBDictionaryMatcher.m in Sources */,
-				0031852B19007BC50041CB48 /* BBPatternCenter.m in Sources */,
-				0031853119007BD30041CB48 /* BBSequenceMatcher.m in Sources */,
+				0046252C1B2A558100E218AC /* BBPasswordStrengthTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		2CC9EB1F1811317C0083828F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CC9EB201811317C0083828F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		004624E71B2A54D700E218AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004624D81B2A54D700E218AC /* ZXCVBN */;
+			targetProxy = 004624E61B2A54D700E218AC /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00B543DD1A8177D80044CC5B /* Debug */ = {
+		004624ED1B2A54D700E218AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		00B543DE1A8177D80044CC5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		20AC3337A0EB419DB0ED38D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69ABAB3CC617104E3497CB32 /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZXCVBN/ZXCVBN-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"$(inherited)",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2CC9EB461811317C0083828F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2CC9EB471811317C0083828F /* Release */ = {
+		004624EE1B2A54D700E218AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -584,82 +409,124 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		97E9B655C7674602B09D997D /* Debug */ = {
+		004624F01B2A54D700E218AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFD7095EABCAA605ECC35CC7 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				DSTROOT = /tmp/xcodeproj.dst;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZXCVBN/ZXCVBN-Prefix.pch";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ZXCVBN/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		004624F11B2A54D700E218AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ZXCVBN/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		004624F31B2A54D700E218AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = ZXCVBNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		004624F41B2A54D700E218AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZXCVBNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00B543DC1A8177D80044CC5B /* Build configuration list for PBXNativeTarget "ZXCVBN" */ = {
+		004624D31B2A54D600E218AC /* Build configuration list for PBXProject "ZXCVBN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00B543DD1A8177D80044CC5B /* Debug */,
-				00B543DE1A8177D80044CC5B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2CC9EB0E1811317C0083828F /* Build configuration list for PBXProject "ZXCVBN" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2CC9EB461811317C0083828F /* Debug */,
-				2CC9EB471811317C0083828F /* Release */,
+				004624ED1B2A54D700E218AC /* Debug */,
+				004624EE1B2A54D700E218AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F726E7DB23E7438088E50CD0 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+		004624EF1B2A54D700E218AC /* Build configuration list for PBXNativeTarget "ZXCVBN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20AC3337A0EB419DB0ED38D2 /* Release */,
-				97E9B655C7674602B09D997D /* Debug */,
+				004624F01B2A54D700E218AC /* Debug */,
+				004624F11B2A54D700E218AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		004624F21B2A54D700E218AC /* Build configuration list for PBXNativeTarget "ZXCVBNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004624F31B2A54D700E218AC /* Debug */,
+				004624F41B2A54D700E218AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2CC9EB0B1811317C0083828F /* Project object */;
+	rootObject = 004624D01B2A54D600E218AC /* Project object */;
 }

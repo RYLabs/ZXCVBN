@@ -2,12 +2,18 @@
 //  ZXCVBN.h
 //  ZXCVBN
 //
-//  Created by Gabriel on 2/3/15.
-//  Copyright (c) 2015 beanandbean. All rights reserved.
+//  Created by Gabriel on 6/11/15.
+//  Copyright (c) 2015 Gabriel Handford. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 
-@interface ZXCVBN : NSObject
+//! Project version number for ZXCVBN.
+FOUNDATION_EXPORT double ZXCVBNVersionNumber;
 
-@end
+//! Project version string for ZXCVBN.
+FOUNDATION_EXPORT const unsigned char ZXCVBNVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <ZXCVBN/PublicHeader.h>
+
+#import <ZXCVBN/BBPasswordStrength.h>

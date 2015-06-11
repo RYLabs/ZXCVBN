@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 beanandbean. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @protocol BBPatternMatcher <NSObject>
 
 - (NSArray *)match:(NSString *)password;

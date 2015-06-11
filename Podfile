@@ -1,3 +1,0 @@
-target :Tests do
-  pod "GRUnit"
-end

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZXCVBN"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "ZXCVBN password strength estimation"
   s.homepage     = "https://tech.dropbox.com/2012/04/zxcvbn-realistic-password-strength-estimation/"
   s.license      = { :type => "MIT" }

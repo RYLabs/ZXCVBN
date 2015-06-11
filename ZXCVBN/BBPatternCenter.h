@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 beanandbean. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @interface BBPatternCenter : NSObject
 
 + (BBPatternCenter *)defaultCenter;

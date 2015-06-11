@@ -33,8 +33,8 @@ static NSDictionary *g_sequences;
         int j = i + 1;
         NSString *sequence;
         NSString *sequenceName;
-        NSInteger sequenceDirection;
-        
+        NSInteger sequenceDirection = 0;
+
         NSDictionary *sequences = [BBSequenceMatcher sequences];
         for (NSString *candidateName in sequences) {
             NSString *candidateSequence = [sequences objectForKey:candidateName];
