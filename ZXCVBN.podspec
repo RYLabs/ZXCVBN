@@ -11,9 +11,5 @@ Pod::Spec.new do |s|
   s.resources    = "tools/generated/*.json"
   s.requires_arc = true
 
-  s.ios.platform = :ios, "7.0"
   s.ios.deployment_target = "7.0"
-
-  s.osx.platform = :osx, "10.8"
-  s.osx.deployment_target = "10.8"
 end
